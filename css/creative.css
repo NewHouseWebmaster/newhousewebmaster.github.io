@@ -606,8 +606,15 @@ body {
   data-interval: 3000;
 }
 
+.carousel-caption p{
+  font-size: calc(11px + (14 - 10) * ((100vw - 300px) / (1300 - 300)));
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
+}
+
 .carousel-inner{
-  height: 475px;
+  height: 50%;
 
 }
 

@@ -94,13 +94,13 @@
         <img src="img/facilities/laundry.jpg">
         <div class="carousel-caption">
           <h3>Laundry Room</h3>
-          <p>New House's laundry room is equipped with 10 washers and 10 dryers. Each washer load and dryer load costs $1.00. You can pay either with quarters or by TechCash using the card reader machines. Since our washers are industrial duty machines, they require significantly less detergent so make sure you don't overload the machines. Too much detergent results in soapy and incomplete washes.</p>
+          <p>New House's laundry room is equipped with 10 washers and 10 dryers. Each washer load and dryer load costs $1.00. You can pay either with quarters or by TechCash using the card reader machines. Our washers are industrial duty machines,so they require significantly less detergent so make sure you don't overload the machines.</p>
         </div>
       </div>
 
       <div class="item">
         <img src="img/facilities/gym.jpg">
-        <div class="carousel-caption">
+        <div class="carousel-caption ">
           <h3>Fitness Room</h3>
           <p>The New House Fitness Room, located in House 4, has a variety of different weights and machines. You need your MIT ID card to get access into the room.</p>
         </div>
@@ -108,7 +108,7 @@
 
       <div class="item">
         <img src="img/facilities/study.jpg">
-        <div class="carousel-caption">
+        <div class="carousel-caption ">
           <h3>Computer Room</h3>
           <p>Located on the first floor off the Arcade between House 2 and House 4, the athena cluster in New House is home to 8 Athena computers and one printer.</p>
         </div>
@@ -116,7 +116,7 @@
 
       <div class="item">
         <img src="img/facilities/countrykitchen.jpg">
-        <div class="carousel-caption">
+        <div class="carousel-caption ">
           <h3>Country Kitchen</h3>
           <p>The country kitchen is available for the entire new house community to use, and is located in House 2. But make sure to clean up after you're done!</p>
         </div>
@@ -124,7 +124,7 @@
 
       <div class="item">
         <img src="img/facilities/corridor.jpg">
-        <div class="carousel-caption">
+        <div class="carousel-caption ">
           <h3>Arcade</h3>
           <p>The Arcade is the main hallway on the first floor that connects all the various houses. Here, we host a variety of New House Social Events (with lots of FREE FOOD). Run into friends here!</p>
         </div>
@@ -132,7 +132,7 @@
 
       <div class="item">
         <img src="img/facilities/music.jpg">
-        <div class="carousel-caption">
+        <div class="carousel-caption ">
           <h3>Music Room</h3>
           <p>Located on the first floor of House 6, the music room in New House has one piano and several music stands for the dorm's residents to share. </p>
         </div>
@@ -140,7 +140,7 @@
 
       <div class="item">
         <img src="img/facilities/mpr.jpg">
-        <div class="carousel-caption">
+        <div class="carousel-caption ">
           <h3>Multi-Purpose Room</h3>
           <p>Located on the first floor of House 2, the all-purpose lounge in New House is open for reservations (see Reservations Calendar below) for dorm events. It also happens to be convenienty located next to the country kitchen!</p>
         </div>
@@ -148,7 +148,7 @@
 
     <div class="item">
       <img src="img/facilities/makerspace.jpg">
-      <div class="carousel-caption">
+      <div class="carousel-caption ">
         <h3>Makerspace</h3>
         <p>At MIT we LOVE to make things! The makerspace is home to all sorts of fun devices to help New Housers make whatever their heart desires. Come check it out! </p>
       </div>
@@ -188,6 +188,20 @@
         </div>
     </div>
 </section>
+
+<script>
+$(document).ready(function() {
+   $("#myCarousel").swiperight(function() {
+      $("#myCarousel").carousel('prev');
+    });
+   $("#myCarousel").swipeleft(function() {
+      $("#myCarousel").carousel('next');
+   });
+});
+</script>
+
+<!--Swipe Support-->
+<script src=”jquery.mobile.custom.min.js”></script>
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
 
