@@ -298,9 +298,9 @@ header .header-content .header-content-inner p {
     width: 100%;
     height: 100%;
     text-align: center;
-    color: #fff;
+    color: #000;
     opacity: 0;
-    background: rgba(0, 89, 20,.9);
+    background: #f7f7f7;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -324,6 +324,7 @@ header .header-content .header-content-inner p {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
+    color: #000;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
@@ -331,12 +332,13 @@ header .header-content .header-content-inner p {
 }
 
 .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1;
+    opacity: 0.95;
 }
 
 @media(min-width:768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 16px;
+        color: #000;
     }
 
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
