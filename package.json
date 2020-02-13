@@ -4,8 +4,8 @@
   "description": "",
   "main": "server/server.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
     "hotloader": "webpack-dev-server --config ./webpack.config.js --mode development --port 5000",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -17,7 +17,7 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://newhousewebmaster.github.io",
+  "homepage": "https://newhouse.mit.edu",
   "engines": {
     "node": ">=12.0.0"
   },
