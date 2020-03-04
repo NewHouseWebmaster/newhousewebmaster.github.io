@@ -15,6 +15,7 @@ import Faq from "./pages/Faq.js";
 import Contact from "./pages/Contact.js";
 import Facilities from "./pages/Facilities.js";
 import Government from "./pages/Government.js";
+import GuestList from "./modules/GuestList.js";
 
 /**
  * Define the "App" component as a class.
@@ -57,6 +58,9 @@ class App extends Component {
           />
           <Contact
             path="/contact"
+          />
+          <GuestList 
+            path="/guestlist"
           />
           <NotFound default />
         </Router>

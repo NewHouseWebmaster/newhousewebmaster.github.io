@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Croissant+One|Open+Sans|Open+Sans+Condensed:300|Chivo|Quicksand&display=swap');
+
+.guestlist-container {
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 100vw;
+    font-family: "Quicksand";
+}
+
+.guestList-list {
+    margin-top: 20px;
+    width: 50vw;
+    font-family: "Quicksand";
+    height: fit-content;
+}
+
+.guestList-input {
+    margin-top: 10px;
+    width: 50vw;
+    font-family: "Quicksand";
+    height: 20px;
+}

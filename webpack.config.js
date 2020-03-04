@@ -17,7 +17,7 @@
 */
 
 const path = require("path");
-const entryFile = path.resolve(__dirname, "client", "src", "index.js");
+const entryFile = path.resolve(__dirname, "src", "index.js");
 const outputDir = path.resolve(__dirname, "client", "dist");
 
 const webpack = require("webpack");
