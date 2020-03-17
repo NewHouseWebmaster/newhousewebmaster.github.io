@@ -3,6 +3,7 @@ import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import NavBar from "./modules/NavBar.js";
 import Footer from "./modules/Footer.js";
+import {ScrollToTop} from "./modules/ScrollToTop.js";
 
 import "../utilities.css";
 import "./App.css";
@@ -43,26 +44,29 @@ class App extends Component {
       <>
       <div className="App-container">
         <NavBar/>
-        <Router>
-          <About 
-            path="/"
-          />
-          <Government
-            path="/government"
-          />
-          <Facilities
-            path="/facilities"
-          />
-          <Faq
-            path="/faq"
-          />
-          <Contact
-            path="/contact"
-          />
-          <GuestList 
-            path="/guestlist"
-          />
-          <NotFound default />
+        
+        <Router primary={false}>
+          <ScrollToTop path="/">
+            <About 
+              path="/"
+            />
+            <Government
+              path="/government"
+            />
+            <Facilities
+              path="/facilities"
+            />
+            <Faq
+              path="/faq"
+            />
+            <Contact
+              path="/contact"
+            />
+            <GuestList 
+              path="/guestlist"
+            />
+            <NotFound default />
+          </ScrollToTop>
         </Router>
         <Footer />
         </div>
