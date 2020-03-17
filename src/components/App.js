@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import NavBar from "./modules/NavBar.js";
 import Footer from "./modules/Footer.js";
@@ -17,6 +16,17 @@ import Contact from "./pages/Contact.js";
 import Facilities from "./pages/Facilities.js";
 import Government from "./pages/Government.js";
 import GuestList from "./modules/GuestList.js";
+
+import {
+  createHistory,
+  LocationProvider,
+  Router
+} from "@reach/router";
+import createHashSource from 'hash-source'
+
+let source = createHashSource();
+let history = createHistory(source)
+
 
 /**
  * Define the "App" component as a class.
@@ -42,6 +52,7 @@ class App extends Component {
   render() {
     return (
       <>
+      <LocationProvider history={history}>
       <div className="App-container">
         <NavBar/>
         
@@ -70,6 +81,7 @@ class App extends Component {
         </Router>
         <Footer />
         </div>
+        </LocationProvider>
       </>
     );
   }
