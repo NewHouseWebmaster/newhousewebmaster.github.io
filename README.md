@@ -11,17 +11,19 @@ Make changes in *source* branch.
 
 
     $ yarn build
+    $ git add -A
+    $ git commit -m "new build"
     $ git checkout master
 	
 	
-Delete all files in master, except for CNAME.
+Delete all files in *master*, except for CNAME and .gitkeep.
 
 
     $ git checkout source -- build
-    $ cp -r build/* .
+    $ cp -r build/* 
 		
 		
-Copy contents of build to root directory, remove the now-empty build folder.
+Move contents of build to root directory, delete the now-empty build folder.
 
 
     $ git add -A
