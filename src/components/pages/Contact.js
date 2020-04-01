@@ -20,8 +20,8 @@ class Contact extends Component {
         </div>
         <div className='gov-row'>
           <div>House Manager</div>
-	        <div>David Paula Nunez</div>
-          <div><a href='mailto:dapaula@mit.edu'>dapaula@mit.edu</a></div>	
+	        <div>Bob Ramsay</div>
+          <div><a href='mailto:bramsay@mit.edu'>bramsay@mit.edu</a></div>	
         </div>
         <div className='gov-row'>
           <div>Residential Life Area Director</div>

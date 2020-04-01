@@ -88,7 +88,7 @@ class Government extends Component {
 
     <div className='gov-gov-container'>
         <div className='gov-title'>
-            Graduate Residence Tutors
+            Graduate Residence Advisors
         </div>
         <div className='gov-row'>
           <div>iHouse</div>
@@ -143,11 +143,9 @@ class Government extends Component {
         </div>
         <div className='gov-row'>
           <div>House 4</div>
-	        <div>Alex Wallar
-            <br></br>
-            Jess Wallar
+	        <div>Georgia Van de Zande
           </div>
-          <div><a href='mailto:nh4-grts@mit.edu'>nh4-grts@mit.edu</a>
+          <div><a href='mailto:gdvdz@mit.edu'>gdvdz@mit.edu</a>
           </div>	
         </div>
         <div className='gov-row'>
@@ -174,8 +172,8 @@ class Government extends Component {
         </div>
         <div className='gov-row'>
           <div>House Manager</div>
-	        <div>David Paula Nunez</div>
-          <div><a href='mailto:dapaula@mit.edu'>dapaula@mit.edu</a></div>	
+	        <div>Bob Ramsay</div>
+          <div><a href='mailto:bramsay@mit.edu'>bramsay@mit.edu</a></div>	
         </div>
         <div className='gov-row'>
           <div>Residential Life Area Director</div>

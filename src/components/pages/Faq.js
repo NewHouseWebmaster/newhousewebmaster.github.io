@@ -56,9 +56,7 @@ class Faq extends Component {
                 </p>
                 <p><b>For the Kitchen:</b>
                   <ul>
-                    <li>Your own cookware: Some of the houses at new house have communal cookware so check with your house if you need something, but it also never hurts to have your own stuff! Especially if you have dietary restrictions, having your own cooking/dining set can be really great.</li>
-                    <li> Specifically: 1 Utensils set, 1 plate, 1 bowl, 1 microwavable cup, 1 sauce/frying pan, 1 pot for boiling things. </li>
-                    <li> Get Tupperware and ziploc bags. IF there's leftover free food and you want it, this is essential. Also, you can pack lunch and refrigerate leftovers!</li>
+                    <li>Most houses have communal cookware, but also feel free to bring some/buy some of your own stuff! Although, keep in mind that each kitchen has limited space for each individual.</li>
                   </ul>
                 </p>
           </div>
@@ -68,26 +66,17 @@ class Faq extends Component {
           <div className='faq-q'>
           How many singles and doubles are available in New House to the incoming freshmen?          </div>
           <div className='faq-a'>
-          <p>It changes every year, but in all of New House, 80% of the rooms are singles. The rest are doubles. Also highly recommend not living in a single freshman year! It's a great way to meet new people. If you have any further questions about the availability of particular kinds of rooms, feel free to reach out to the houses you're interested in! </p>
-
+              <p>Singles - 46%, Doubles - 54%. Housing lottery policies are different for each house, but rest assured you won't be staying in a triple or quad :)</p>
           </div>
         </div>
 
-        <div className='faq-item'>
-          <div className='faq-q'>
-          What are the average sizes of the rooms?</div>
-                    <div className='faq-a'>
-                    <p>Average size of a single: 142.08 square feet <br></br> Average size of a double: 237.73 square feet. </p>
-
-          </div>
-        </div>
 
         <div className='faq-item'>
           <div className='faq-q'>
           How many kitchens are there in New House?
           </div>
                     <div className='faq-a'>
-                    <p>Total Number of Kitchens: 14, including the Country Kitchen, which is for all of New House. The kitchens are quite large!</p>
+                    <p>Total Number of Kitchens: 10, including the Country Kitchen, which is for all of New House. The kitchens are quite large!</p>
 
           </div>
         </div>
@@ -97,7 +86,7 @@ class Faq extends Component {
           How many people share a bathroom?          
           </div>
                     <div className='faq-a'>
-                    <p>On average, four people "share" one bathroom, though all residents of New House are free to use any bathroom in the building. In other words, there is no formal bathroom allocation. Also the bathrooms are for all genders.</p>
+                    <p>On average, ~9 people share a multi-stall bathroom, and ~4 people share a single-occupancy bathroom, but all residents of New House are free to use any bathroom in the building. There is no formal bathroom allocation, and all bathrooms are all-gender.</p>
 
           </div>
         </div>
@@ -126,7 +115,7 @@ class Faq extends Component {
           Do you have other cool facilities?
                     </div>
                     <div className='faq-a'>
-                    <p>WE HAVE SO MANY COOL THINGS. Check out the <a href="/facilities"> Facilities</a> page!</p>
+                    <p>WE HAVE SO MANY COOL THINGS. Check out the <a href="/#/facilities"> Facilities</a> page!</p>
 
           </div>
         </div>
@@ -136,7 +125,7 @@ class Faq extends Component {
           I wasn't able to visit you guys :( Got any pictures of the building?
                     </div>
                     <div className='faq-a'>
-                    <p> There are a lot of pictures on the <a href="/facilities"> Facilities</a> page! As well as a floor plan.</p>
+                    <p> There are a lot of pictures on the <a href="/#/facilities"> Facilities</a> page! As well as a floor plan.</p>
 
           </div>
         </div>
