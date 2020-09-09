@@ -10,6 +10,7 @@ Development Instructions:
 Make changes in *source* branch.
 
 To run hotloader:
+
     $ yarn install
     $ yarn run hotloader
     
@@ -30,7 +31,7 @@ To deploy changes:
     
     //copy build folder from source and empty contents
     $ git checkout source -- build
-    $ cp -r build/* .
+    $ cp -r build/* . //REMEMBER THE PERIOD THE PERIOD IS IMPORTANT
     $ rm -r build
     $ git add -A
     $ git commit -m "Commit message"
