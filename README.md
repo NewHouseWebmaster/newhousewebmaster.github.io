@@ -22,7 +22,7 @@ To deploy changes:
     $ git commit -m "commit message"
     $ git checkout master
     
-    //remove files except for CNAME, .gitignore, .gitkeep, node_modules
+    // remove files except for CNAME, .gitignore, .gitkeep, node_modules
     $ rm -r static
     $ rm asset-manifest.json
     $ rm index.html
@@ -31,7 +31,7 @@ To deploy changes:
     
     //copy build folder from source and empty contents
     $ git checkout source -- build
-    $ cp -r build/* . //REMEMBER THE PERIOD THE PERIOD IS IMPORTANT
+    $ cp -r build/* .      //REMEMBER THE PERIOD THE PERIOD IS IMPORTANT
     $ rm -r build
     $ git add -A
     $ git commit -m "Commit message"
