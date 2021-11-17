@@ -7,16 +7,13 @@ import {ScrollToTop} from "./modules/ScrollToTop.js";
 import "../utilities.css";
 import "./App.css";
 
-import { socket } from "../client-socket.js";
-
-import { get, post } from "../utilities";
 import About from "./pages/About.js";
 import Faq from "./pages/Faq.js";
 import Contact from "./pages/Contact.js";
 import Facilities from "./pages/Facilities.js";
 import Government from "./pages/Government.js";
-import GuestList from "./modules/GuestList.js";
 
+//FIXME: current routing solution uses deprecated libraries, should migrate to react router 6
 import {
   createHistory,
   LocationProvider,
@@ -26,7 +23,6 @@ import createHashSource from 'hash-source'
 
 let source = createHashSource();
 let history = createHistory(source)
-
 
 /**
  * Define the "App" component as a class.
@@ -42,12 +38,6 @@ class App extends Component {
 
   componentDidMount() {
   }
-
-  handleLogin = (res) => {
-  };
-
-  handleLogout = () => {
-  };
 
   render() {
     return (
@@ -72,9 +62,6 @@ class App extends Component {
             />
             <Contact
               path="/contact"
-            />
-            <GuestList 
-              path="/guestlist"
             />
             <NotFound default />
           </ScrollToTop>
