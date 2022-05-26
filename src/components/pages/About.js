@@ -18,7 +18,8 @@ import wes from '../data/housemaster.jpg';
 
 import nh from '../data/newhouse.jpg';
 import nhinside from '../data/newhouse-inside.jpg';
-
+//TODO: write mobile css
+//FIXME: deploy dammit
 class About extends Component {
   constructor(props) {
     super(props);

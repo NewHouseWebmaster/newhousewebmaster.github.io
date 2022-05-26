@@ -1,11 +1,27 @@
 import React, { Component } from "react";
 import "./Government.css";
 
+const nh_exec = [
+  {title:"President", ppl:[{name: "Kristina Chen", kerb: "kyxchen"}]},
+  {title:"Vice President",ppl: [{name: "Emily Kang", kerb: "kemily"}]},
+  {title:"Tresurer",ppl: [{name:"Christine Tang", kerb: "cwtang"}]},
+  {title:"Secretary", ppl: [{name:"Margaret Wang", kerb: "mqwang"}]},
+  {title:"Housing Chair", ppl: [{name: "Kristina Chen", kerb: "kyxchen"}]},
+  {title:"Wellness Chair",ppl: [{name: "Dasha Castillo", kerb: "dashac"},{name: "Neha Pant", kerb: "nehapant"}]},
+  {title:"Social Chair",ppl: [{name: "Juan Angel Luera", kerb: "j_luera"}, {name: "Ivy Lui",kerb:"ilui"}]},
+  {title:"CPW/REX Chair",ppl: [{name: "Duha Syar", kerb: "duhasyar"}]},
+  {title:"Web Chair (Best Chair)",ppl: [{name: "Thelonious Cooper", kerb: "theloni"}]},
+  {title:"Facilities Chair",ppl: [{name: "David Kwabi-Addo", kerb: "dkwabiad"}]},
+  {title:"Makerspace Chair",ppl: [{name: "Camacho Zamora", kerb: "beastboy"},{name:"Leonardo Zamora",kerb:"lzamora"}]}
+];
+const GRAs = {
+
+}
 class Government extends Component {
   constructor(props) {
     super(props);
   }
-  //TODO: update gov with newly elected positions
+  //TODO: update with new GRAs and migrate GRAs from hardcode to array map
   render() {
     return (
       <div className='gov-container'>
@@ -13,79 +29,37 @@ class Government extends Component {
           <div className='gov-title'>
             Executive Officers
           </div>
-          <div className='gov-row'>
-            <div>President</div>
-            <div>Sarah Edwards</div>
-            <div><a href='mailto:edwardss@mit.edu'>edwardss@mit.edu</a></div>
+          <div>
+            {nh_exec.map(pos=>
+                (
+                <div className='gov-row'>
+                  <div>{pos.title}</div>
+                  <div>
+                    {pos.ppl.map(person=>
+                      (
+                        <>
+                        <div>{person.name}</div><br/>
+                        </>
+                      )
+                      )
+                    }</div>
+                    <div>
+                    {pos.ppl.map(person=>
+                      (
+                        <>
+                        <div><a href={'mailto'+person.kerb}>{person.kerb+'@mit.edu'}</a></div><br/>
+                        </>
+                      )
+                      )
+                    }
+                    </div>  
+                </div>
+                )
+                )
+            }
           </div>
-          <div className='gov-row'>
-            <div>Vice President</div>
-            <div>Syamantak Payra</div>
-            <div><a href='mailto:spayra1@mit.edu'>spayra1@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>Treasurer</div>
-            <div>Leonardo Zamora</div>
-            <div><a href='mailto:lzamora@mit.edu'>lzamora@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>Secretary</div>
-            <div>Grace Kim</div>
-            <div><a href='mailto:gkim17@mit.edu'>gkim17@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>Senior Housing Chair</div>
-            <div>Tamara Brabson</div>
-            <div><a href='mailto:tbrabson@mit.edu'>tbrabson@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>Facilities Chair</div>
-            <div>Alessandro Santos</div>
-            <div><a href='mailto:asantoss@mit.edu'>asantoss@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>Wellness Chair</div>
-            <div>Alessandro Santos</div>
-            <div><a href='mailto:asantoss@mit.edu'>asantoss@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>Community Chairs</div>
-            <div>Lola Wolf <br></br>Maela Hickling</div>
-            <div><a href='mailto:lolawolf@mit.edu'>lolawolf@mit.edu</a>
-              <br>
-              </br>
-              <a href='mailto:hickling@mit.edu'>hickling@mit.edu</a>
-            </div>
-          </div>
-          <div className='gov-row'>
-            <div>CPW/REX Chair</div>
-            <div>Nathan Ramesh</div>
-            <div><a href='mailto:nathanr@mit.edu'>nathanr@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>i3 Video Chair</div>
-            <div>Grace Kim</div>
-            <div><a href='mailto:gkim17@mit.edu'>gkim17@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>Makerspace Chair</div>
-            <div>Syamantak Payra</div>
-            <div><a href='mailto:spayra1@mit.edu'>spayra1@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>Conservation Chair</div>
-            <div>Melissa Stok</div>
-            <div><a href='mailto:mstok@mit.edu'>mstok@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>Web Chair</div>
-            <div>Thelonious Cooper</div>
-            <div><a href='mailto:nh-webmaster@mit.edu'>nh-webmaster@mit.edu</a></div>
-          </div>
-
-
         </div>
-
+        {/* TODO: UPDATE GRAs */}
         <div className='gov-gov-container'>
           <div className='gov-title'>
             Graduate Residence Advisors
