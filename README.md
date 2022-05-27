@@ -10,31 +10,15 @@ Development Instructions:
 Make changes in *source* branch.
 
 To run hotloader:
-
+```bash
     $ yarn install
     $ yarn run hotloader
-    
-    
-To deploy changes:
+```
 
+To deploy changes:
+```bash
     $ yarn build
-    $ git add -A
-    $ git commit -m "commit message"
-    $ git checkout master
-    
-    // remove files except for CNAME, .gitignore, .gitkeep, node_modules
-    $ rm -r static
-    $ rm asset-manifest.json
-    $ rm index.html
-    $ rm precache-manifest{whatever this file is called}
-    $ rm service-worker.js
-    
-    //copy build folder from source and empty contents
-    $ git checkout source -- build
-    $ cp -r build/* .      //REMEMBER THE PERIOD THE PERIOD IS IMPORTANT
-    $ rm -r build
-    $ git add -A
-    $ git commit -m "Commit message"
-    $ git push	
-		
+    $ cp ./CNAME ./build
+    $ npx gh-pages -d build
+```
 Wait for gh-pages to update. :)
