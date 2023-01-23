@@ -12,7 +12,7 @@ const nh_exec = [
   {title:"CPW/REX Chair",ppl: [{name: "Duha Syar", kerb: "duhasyar"}]},
   {title:"Web Chair (Best Chair)",ppl: [{name: "Thelonious Cooper", kerb: "theloni"}]},
   {title:"Facilities Chair",ppl: [{name: "David Kwabi-Addo", kerb: "dkwabiad"}]},
-  {title:"Makerspace Chair",ppl: [{name: "Camacho Zamora", kerb: "beastboy"},{name:"Leonardo Zamora",kerb:"lzamora"}]}
+  {title:"Makerspace Chair",ppl: [{name: "Christian Camacho", kerb: "beastboy"},{name:"Leonardo Zamora",kerb:"lzamora"}]}
 ];
 const GRAs = {
 
@@ -72,11 +72,11 @@ class Government extends Component {
           </div>
           <div className='gov-row'>
             <div>Chocolate City</div>
-            <div>Candace Ross</div>
-            <div><a href='mailto:ccross@mit.edu'>ccross@mit.edu</a></div>
+            <div>Gabriel Andrade</div>
+            <div><a href='mailto:gica@mit.edu'>gica@mit.edu</a></div>
           </div>
           <div className='gov-row'>
-            <div>La Maison Française</div>
+            <div>La Maison Française (French House)</div>
             <div>Joyce Kang
               <br></br>
               Jason Wang
@@ -93,19 +93,13 @@ class Government extends Component {
           </div>
           <div className='gov-row'>
             <div>La Casa</div>
-            <div>Lindsey Backman
-              <br></br>
-              Zach Nelson
-            </div>
-            <div><a href='mailto:lbackman@mit.edu'>lbackman@mit.edu</a>
-              <br></br>
-              <a href='mailto:zpn3@mit.edu'>zpn3@mit.edu</a>
-            </div>
+            <div>Andrea Marcano-Delgado</div>
+            <div><a href='mailto:amarcano@mit.edu'>amarcano@mit.edu</a></div>
           </div>
           <div className='gov-row'>
-            <div>House 2</div>
-            <div>Sam Westcott McAlpine</div>
-            <div><a href='mailto:alloy94@mit.edu'>alloy94@mit.edu</a></div>
+            <div>Juniper House</div>
+            <div>Charlotte Folinus</div>
+            <div><a href='mailto:cfolinus@mit.edu'>cfolinus@mit.edu</a></div>
           </div>
           <div className='gov-row'>
             <div>House 3</div>
@@ -115,19 +109,18 @@ class Government extends Component {
           <div className='gov-row'>
             <div>House 4</div>
             <div>Georgia Van de Zande
+              <br></br>
+              Manuel Gutierrez
             </div>
             <div><a href='mailto:gdvdz@mit.edu'>gdvdz@mit.edu</a>
+              <br></br>
+              <a href='mailto:mgutier@mit.edu'>mgutier@mit.edu</a>
             </div>
           </div>
           <div className='gov-row'>
             <div>Desmond</div>
-            <div>Elise Newman
-              <br></br>
-              Berk Ozturk
-            </div>
-            <div><a href='mailto:esnewman@mit.edu'>esnewman@mit.edu</a>
-              <br></br>
-              <a href='mailto:bozturk@mit.edu'>bozturk@mit.edu</a>
+            <div>Jonathan Bessette</div>
+            <div><a href='mailto:jbessett@mit.edu'>jbessett@mit.edu</a>
             </div>
           </div>
         </div>
@@ -145,11 +138,6 @@ class Government extends Component {
             <div>House Manager</div>
             <div>Bob Ramsay</div>
             <div><a href='mailto:bramsay@mit.edu'>bramsay@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>Residential Life Area Director</div>
-            <div>John Ross Campbell</div>
-            <div><a href='mailto:jrcamp@mit.edu'>jrcamp@mit.edu</a></div>
           </div>
         </div>
 
