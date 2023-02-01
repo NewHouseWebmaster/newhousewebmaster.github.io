@@ -92,7 +92,7 @@ class About extends Component {
 
           <a href="https://dh.scripts.mit.edu/" className='house'>
             German House
-<img src={german} width='200px' height='200px'></img>
+<img src={german} width='150px' height='150px'></img>
           </a>
 
           <a href="http://la-casa.mit.edu/" className='house'>
