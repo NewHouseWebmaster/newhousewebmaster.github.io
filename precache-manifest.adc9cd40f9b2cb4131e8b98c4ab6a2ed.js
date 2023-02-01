@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "008c1b4807f53708ada3db2ec48d3634",
+    "revision": "69a3de27d654115d0f3f2f5f81b6decb",
     "url": "/index.html"
   },
   {
-    "revision": "afa77ede845594fb26c6",
+    "revision": "4b6384e7963535bb59dc",
     "url": "/static/css/main.85aa0872.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.b7e62182.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "afa77ede845594fb26c6",
-    "url": "/static/js/main.8e457150.chunk.js"
+    "revision": "4b6384e7963535bb59dc",
+    "url": "/static/js/main.42aef5c6.chunk.js"
   },
   {
     "revision": "20baadec7b860b17220b",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/frenchhouse.17e9463c.svg"
   },
   {
-    "revision": "74508cef0e9be5a6235543c746ac93a9",
-    "url": "/static/media/germanhouse.74508cef.svg"
+    "revision": "b3a256bd1b1393483e77de318f02c152",
+    "url": "/static/media/germanhouse.b3a256bd.svg"
   },
   {
     "revision": "0ea559a798487a281a1a56b7cad6f47f",
