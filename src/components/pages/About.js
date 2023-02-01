@@ -36,7 +36,7 @@ class About extends Component {
       </div>
 
         {/* <a target="_blank" href="https://nh.scripts.mit.edu:444/Apps/Guests/guestList/" className='intro-button'>Resident Guest List</a>      </div> */}
-        <a target="_blank" href="https://calendly.com/new-house-quiet-lounges" className='intro-button'>Quiet Lounge Reservations</a></div>
+        <a target="_blank" href="https://newhousereservations.skedda.com/booking" className='intro-button'>Room Reservations</a></div>
 
 
       <div>
@@ -58,11 +58,7 @@ class About extends Component {
         <div className='text-block'>
           The best way to think of New House is: one building, divided into six physical structures, shared by nine different living groups. We call each of the six physical structures a "house." See the diagram below.
     </div>
-
-        <div className='text-block'>
-          <br></br>
-          [Updated map coming soon...]
-    </div>
+ 
 
         <div className='text-block'>
           All six physical houses are connected by the "arcade" on the first floor of the building. In addition, houses 1, 2, 3 and 4, and 5 and 6 are connected diagonally on the second through fifth floors. It's a bit confusing, but you can figure it out when you come visit us in the fall :).
