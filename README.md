@@ -21,4 +21,12 @@ To deploy changes:
     $ cp ./CNAME ./build
     $ npx gh-pages -d build
 ```
+
+On Windows:
+```bash
+    set NODE_OPTIONS=--openssl-legacy-provider
+    yarn build
+    Copy CNAME build\
+    npx gh-pages -d build
+```
 Wait for gh-pages to update. :)
