@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.85aa0872.chunk.css",
-    "main.js": "/static/js/main.42aef5c6.chunk.js",
-    "main.js.map": "/static/js/main.42aef5c6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1c58e4aa.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1c58e4aa.js.map",
-    "static/js/2.b7e62182.chunk.js": "/static/js/2.b7e62182.chunk.js",
-    "static/js/2.b7e62182.chunk.js.map": "/static/js/2.b7e62182.chunk.js.map",
+    "main.css": "/static/css/main.9fb70edf.chunk.css",
+    "main.js": "/static/js/main.d998a312.chunk.js",
+    "main.js.map": "/static/js/main.d998a312.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d3f1529d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d3f1529d.js.map",
+    "static/js/2.cc5d272f.chunk.js": "/static/js/2.cc5d272f.chunk.js",
+    "static/js/2.cc5d272f.chunk.js.map": "/static/js/2.cc5d272f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.adc9cd40f9b2cb4131e8b98c4ab6a2ed.js": "/precache-manifest.adc9cd40f9b2cb4131e8b98c4ab6a2ed.js",
+    "precache-manifest.62113b926d1ec08bd61861ee21400d3b.js": "/precache-manifest.62113b926d1ec08bd61861ee21400d3b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.85aa0872.chunk.css.map": "/static/css/main.85aa0872.chunk.css.map",
-    "static/js/2.b7e62182.chunk.js.LICENSE.txt": "/static/js/2.b7e62182.chunk.js.LICENSE.txt",
+    "static/css/main.9fb70edf.chunk.css.map": "/static/css/main.9fb70edf.chunk.css.map",
+    "static/js/2.cc5d272f.chunk.js.LICENSE.txt": "/static/js/2.cc5d272f.chunk.js.LICENSE.txt",
     "static/media/chocolatecity.svg": "/static/media/chocolatecity.a5f1ad50.svg",
     "static/media/corridor.jpg": "/static/media/corridor.c2f34897.jpg",
     "static/media/countrykitchen.jpg": "/static/media/countrykitchen.482b07be.jpg",
@@ -25,6 +25,7 @@
     "static/media/housethree.svg": "/static/media/housethree.04fc6937.svg",
     "static/media/housetwo.svg": "/static/media/housetwo.08cf10eb.svg",
     "static/media/ihouse.svg": "/static/media/ihouse.a27edfc7.svg",
+    "static/media/juniper_logo.png": "/static/media/juniper_logo.ad1c2b29.png",
     "static/media/lacasa.svg": "/static/media/lacasa.707c099d.svg",
     "static/media/laundry.jpg": "/static/media/laundry.61084697.jpg",
     "static/media/makerspace.jpg": "/static/media/makerspace.3b8e8250.jpg",
@@ -36,9 +37,9 @@
     "static/media/study.jpg": "/static/media/study.6cd901e1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1c58e4aa.js",
-    "static/js/2.b7e62182.chunk.js",
-    "static/css/main.85aa0872.chunk.css",
-    "static/js/main.42aef5c6.chunk.js"
+    "static/js/runtime-main.d3f1529d.js",
+    "static/js/2.cc5d272f.chunk.js",
+    "static/css/main.9fb70edf.chunk.css",
+    "static/js/main.d998a312.chunk.js"
   ]
 }

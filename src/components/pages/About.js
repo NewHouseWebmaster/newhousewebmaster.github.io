@@ -11,7 +11,7 @@ import three from '../data/housethree.svg';
 import two from '../data/housetwo.svg';
 import ihouse from '../data/ihouse.svg';
 import lacasa from '../data/lacasa.svg';
-
+import juniper from '../data/juniper_logo.png';
 import floral from '../data/floral-divider.png';
 
 import wes from '../data/housemaster.jpg';
@@ -100,9 +100,9 @@ class About extends Component {
 <img src={lacasa} width='200px' height='200px'></img>
           </a>
 
-          <a href="http://newhouse2.wixsite.com/nhtwo" className='house'>
-            House 2
-<img src={two} width='200px' height='200px'></img>
+          <a href="" className='house'>
+            Juniper
+<img src={juniper} width='200px' height='200px'></img>
           </a>
 
           <a href="http://nts.scripts.mit.edu/nh3/" className='house'>

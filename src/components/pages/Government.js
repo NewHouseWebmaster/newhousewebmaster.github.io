@@ -2,21 +2,30 @@ import React, { Component } from "react";
 import "./Government.css";
 
 const nh_exec = [
-  {title:"President", ppl:[{name: "Kristina Chen", kerb: "kyxchen"}]},
-  {title:"Vice President",ppl: [{name: "Emily Kang", kerb: "kemily"}]},
-  {title:"Tresurer",ppl: [{name:"Christine Tang", kerb: "cwtang"}]},
-  {title:"Secretary", ppl: [{name:"Margaret Wang", kerb: "mqwang"}]},
-  {title:"Housing Chair", ppl: [{name: "Kristina Chen", kerb: "kyxchen"}]},
-  {title:"Wellness Chair",ppl: [{name: "Dasha Castillo", kerb: "dashac"},{name: "Neha Pant", kerb: "nehapant"}]},
-  {title:"Social Chair",ppl: [{name: "Juan Angel Luera", kerb: "j_luera"}, {name: "Ivy Lui",kerb:"ilui"}]},
-  {title:"CPW/REX Chair",ppl: [{name: "Duha Syar", kerb: "duhasyar"}]},
-  {title:"Web Chair (Best Chair)",ppl: [{name: "Thelonious Cooper", kerb: "theloni"}]},
-  {title:"Facilities Chair",ppl: [{name: "David Kwabi-Addo", kerb: "dkwabiad"}]},
-  {title:"Makerspace Chair",ppl: [{name: "Christian Camacho", kerb: "beastboy"},{name:"Leonardo Zamora",kerb:"lzamora"}]}
+  { title: "President", ppl: [{ name: "Kristina Chen", kerb: "kyxchen" }] },
+  { title: "Vice President", ppl: [{ name: "Emily Kang", kerb: "kemily" }] },
+  { title: "Tresurer", ppl: [{ name: "Christine Tang", kerb: "cwtang" }] },
+  { title: "Secretary", ppl: [{ name: "Margaret Wang", kerb: "mqwang" }] },
+  { title: "Housing Chair", ppl: [{ name: "Kristina Chen", kerb: "kyxchen" }] },
+  { title: "Wellness Chair", ppl: [{ name: "Dasha Castillo", kerb: "dashac" }, { name: "Neha Pant", kerb: "nehapant" }] },
+  { title: "Social Chair", ppl: [{ name: "Juan Angel Luera", kerb: "j_luera" }, { name: "Ivy Lui", kerb: "ilui" }] },
+  { title: "CPW/REX Chair", ppl: [{ name: "Duha Syar", kerb: "duhasyar" }] },
+  { title: "Web Chair (Best Chair)", ppl: [{ name: "Thelonious Cooper", kerb: "theloni" }] },
+  { title: "Facilities Chair", ppl: [{ name: "David Kwabi-Addo", kerb: "dkwabiad" }] },
+  { title: "Makerspace Chair", ppl: [{ name: "Christian Camacho", kerb: "beastboy" }, { name: "Leonardo Zamora", kerb: "lzamora" }] }
 ];
-const GRAs = {
-
-}
+const GRAs = [
+  {house:"iHouse", ppl:[{name: "Michael Luu", kerb:"mluu"}]},
+  {house: "Chocolate City", ppl:[{name: "Gabriel Andrade", kerb:"gica"}]},
+  {house: "La Maison Française (French House)", ppl:[{name: "Joyce Kang", kerb:"jbkang"},{name: "Jason Wang", kerb:"jkuwang"}]},
+  {house: "Deutsches Haus (German House)", ppl:[{name:"Emily Hanhauser", kerb:"ehanhaus"}]},
+  {house: "La Casa", ppl:[{name:"Andrea Marcano-Delgado", kerb:"amarcano"}]},
+  {house: "Juniper House", ppl:[{name:"Charlotte Folinus", kerb:"cfolinus"}]},
+  {house: "House 3", ppl:[{name:"Tony Shu", kerb:"tonyshu"}]},
+  {house: "House 4", ppl:[{name: "Georgia Van de Zande", kerb:"gdvdz"},{name:"Manuel Guiterrez", kerb:"mguiter"}]},
+  {house: "Desmond", ppl:[{name: "Jonathan Bessette", kerb:"jbessett"}]}
+  
+];
 class Government extends Component {
   constructor(props) {
     super(props);
@@ -30,32 +39,32 @@ class Government extends Component {
             Executive Officers
           </div>
           <div>
-            {nh_exec.map(pos=>
-                (
-                <div className='gov-row'>
-                  <div>{pos.title}</div>
-                  <div>
-                    {pos.ppl.map(person=>
-                      (
-                        <>
-                        <div>{person.name}</div><br/>
-                        </>
-                      )
-                      )
-                    }</div>
-                    <div>
-                    {pos.ppl.map(person=>
-                      (
-                        <>
-                        <div><a href={'mailto'+person.kerb}>{person.kerb+'@mit.edu'}</a></div><br/>
-                        </>
-                      )
-                      )
-                    }
-                    </div>  
+            {nh_exec.map(pos =>
+            (
+              <div className='gov-row'>
+                <div>{pos.title}</div>
+                <div>
+                  {pos.ppl.map(person =>
+                  (
+                    <>
+                      <div>{person.name}</div><br />
+                    </>
+                  )
+                  )
+                  }</div>
+                <div>
+                  {pos.ppl.map(person =>
+                  (
+                    <>
+                      <div><a href={'mailto' + person.kerb}>{person.kerb + '@mit.edu'}</a></div><br />
+                    </>
+                  )
+                  )
+                  }
                 </div>
-                )
-                )
+              </div>
+            )
+            )
             }
           </div>
         </div>
@@ -64,65 +73,32 @@ class Government extends Component {
           <div className='gov-title'>
             Graduate Residence Advisors
           </div>
+          {GRAs.map(GRA=>(
           <div className='gov-row'>
-            <div>iHouse</div>
-            <div>Michael Luu</div>
-            <div><a href='mailto:mluu@mit.edu'>mluu@mit.edu</a>
-            </div>
+              <div>{GRA.house}</div>
+              
+              <div>
+                  {GRA.ppl.map(person =>
+                  (
+                    <>
+                      <div>{person.name}</div><br />
+                    </>
+                  )
+                  )
+                  }</div>
+                <div>
+                  {GRA.ppl.map(person =>
+                  (
+                    <>
+                      <div><a href={'mailto' + person.kerb}>{person.kerb + '@mit.edu'}</a></div><br />
+                    </>
+                  )
+                  )
+                  }
+                </div>
+              
           </div>
-          <div className='gov-row'>
-            <div>Chocolate City</div>
-            <div>Gabriel Andrade</div>
-            <div><a href='mailto:gica@mit.edu'>gica@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>La Maison Française (French House)</div>
-            <div>Joyce Kang
-              <br></br>
-              Jason Wang
-            </div>
-            <div><a href='mailto:jbkang@mit.edu'>jbkang@mit.edu</a>
-              <br></br>
-              <a href='mailto:jkuwang@mit.edu'>jkuwang@mit.edu</a>
-            </div>
-          </div>
-          <div className='gov-row'>
-            <div>Deutsches Haus</div>
-            <div>Emily Hanhauser</div>
-            <div><a href='mailto:ehanhaus@mit.edu'>ehanhaus@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>La Casa</div>
-            <div>Andrea Marcano-Delgado</div>
-            <div><a href='mailto:amarcano@mit.edu'>amarcano@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>Juniper House</div>
-            <div>Charlotte Folinus</div>
-            <div><a href='mailto:cfolinus@mit.edu'>cfolinus@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>House 3</div>
-            <div>Tony Shu</div>
-            <div><a href='mailto:tonyshu@mit.edu'>tonyshu@mit.edu</a></div>
-          </div>
-          <div className='gov-row'>
-            <div>House 4</div>
-            <div>Georgia Van de Zande
-              <br></br>
-              Manuel Gutierrez
-            </div>
-            <div><a href='mailto:gdvdz@mit.edu'>gdvdz@mit.edu</a>
-              <br></br>
-              <a href='mailto:mgutier@mit.edu'>mgutier@mit.edu</a>
-            </div>
-          </div>
-          <div className='gov-row'>
-            <div>Desmond</div>
-            <div>Jonathan Bessette</div>
-            <div><a href='mailto:jbessett@mit.edu'>jbessett@mit.edu</a>
-            </div>
-          </div>
+          ))}
         </div>
 
         <div className='gov-gov-container'>
