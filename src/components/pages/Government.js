@@ -7,7 +7,7 @@ const nh_exec = [
   { title: "Tresurer", ppl: [{ name: "Katherine Miner", kerb: "keminer" }] },
   { title: "Secretary", ppl: [{ name: "Margaret Wang", kerb: "mqwang" }] },
   { title: "Housing Chair", ppl: [{ name: "Andrew Jiang", kerb: "linjiang" }] },
-  { title: "Wellness Chair", ppl: [{ name: "Ivy Liu", kerb: "iliu" }, { name: "Neha Pant", kerb: "nehapant" }] },
+  { title: "Wellness Chair", ppl: [{ name: "Ivy Liu", kerb: "iliu" }] },
   { title: "Social Chair", ppl: [{ name: "Haris Imamović", kerb: "imhari" }, { name: "Reng Zheng", kerb: "rengz" }] },
   { title: "CPW/REX Chair", ppl: [{ name: "Reng Zheng", kerb: "rengz" }] },
   { title: "Web Chair (Best Chair)", ppl: [{ name: "Thelonious Cooper", kerb: "theloni" }] },
@@ -18,7 +18,7 @@ const GRAs = [
   {house:"iHouse", ppl:[{name: "Madeline Garcia", kerb:"mkgarcia"}]},
   {house: "Chocolate City", ppl:[{name: "Gabriel Andrade", kerb:"gica"}, {name: "Kaylah Paras", kerb: "kdparas"}]},
   {house: "La Maison Française (French House)", ppl:[{name: "Miguel Calvo-Carerra", kerb:"miguelcc"},{name: "Irene Posse Alonso", kerb:""}]},
-  {house: "Deutsches Haus (German House)", ppl:[{name:"Michell Lin", kerb:"shuyulin"}]},
+  {house: "Deutsches Haus (German House)", ppl:[{name:"Michelle Lin", kerb:"shuyulin"}]},
   {house: "La Casa", ppl:[{name:"Andrea Marcano-Delgado", kerb:"amarcano"}]},
   {house: "Juniper House", ppl:[{name:"Charlotte Folinus", kerb:"cfolinus"}]},
   {house: "House 3", ppl:[{name:"Tony Shu", kerb:"tonyshu"}]},
@@ -56,7 +56,7 @@ class Government extends Component {
                   {pos.ppl.map(person =>
                   (
                     <>
-                      <div><a href={'mailto' + person.kerb}>{person.kerb + '@mit.edu'}</a></div><br />
+                      <div><a href={'mailto:' + person.kerb + '@mit.edu'}>{person.kerb + '@mit.edu'}</a></div><br />
                     </>
                   )
                   )
@@ -90,7 +90,7 @@ class Government extends Component {
                   {GRA.ppl.map(person =>
                   (
                     <>
-                      <div><a href={'mailto' + person.kerb}>{person.kerb + '@mit.edu'}</a></div><br />
+                      <div><a href={'mailto:' + person.kerb + '@mit.edu'}>{person.kerb + '@mit.edu'}</a></div><br />
                     </>
                   )
                   )
