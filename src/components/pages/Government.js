@@ -2,27 +2,27 @@ import React, { Component } from "react";
 import "./Government.css";
 
 const nh_exec = [
-  { title: "President", ppl: [{ name: "Kristina Chen", kerb: "kyxchen" }] },
-  { title: "Vice President", ppl: [{ name: "Emily Kang", kerb: "kemily" }] },
-  { title: "Tresurer", ppl: [{ name: "Christine Tang", kerb: "cwtang" }] },
+  { title: "President", ppl: [{ name: "Christian Camacho", kerb: "beastboy" }] },
+  { title: "Vice President", ppl: [{ name: "Haris Imamović", kerb: "imhari" }] },
+  { title: "Tresurer", ppl: [{ name: "Katherine Miner", kerb: "keminer" }] },
   { title: "Secretary", ppl: [{ name: "Margaret Wang", kerb: "mqwang" }] },
-  { title: "Housing Chair", ppl: [{ name: "Kristina Chen", kerb: "kyxchen" }] },
-  { title: "Wellness Chair", ppl: [{ name: "Dasha Castillo", kerb: "dashac" }, { name: "Neha Pant", kerb: "nehapant" }] },
-  { title: "Social Chair", ppl: [{ name: "Juan Angel Luera", kerb: "j_luera" }, { name: "Ivy Lui", kerb: "ilui" }] },
-  { title: "CPW/REX Chair", ppl: [{ name: "Duha Syar", kerb: "duhasyar" }] },
+  { title: "Housing Chair", ppl: [{ name: "Andrew Jiang", kerb: "linjiang" }] },
+  { title: "Wellness Chair", ppl: [{ name: "Ivy Liu", kerb: "iliu" }, { name: "Neha Pant", kerb: "nehapant" }] },
+  { title: "Social Chair", ppl: [{ name: "Haris Imamović", kerb: "imhari" }, { name: "Reng Zheng", kerb: "rengz" }] },
+  { title: "CPW/REX Chair", ppl: [{ name: "Reng Zheng", kerb: "rengz" }] },
   { title: "Web Chair (Best Chair)", ppl: [{ name: "Thelonious Cooper", kerb: "theloni" }] },
   { title: "Facilities Chair", ppl: [{ name: "David Kwabi-Addo", kerb: "dkwabiad" }] },
-  { title: "Makerspace Chair", ppl: [{ name: "Christian Camacho", kerb: "beastboy" }, { name: "Leonardo Zamora", kerb: "lzamora" }] }
+  { title: "Makerspace Chair", ppl: [{ name: "Tamara Hinderman", kerb: "tnh8210" }, { name: "Tyrin-Ian Todd", kerb: "tytodd" }] }
 ];
 const GRAs = [
-  {house:"iHouse", ppl:[{name: "Michael Luu", kerb:"mluu"}]},
-  {house: "Chocolate City", ppl:[{name: "Gabriel Andrade", kerb:"gica"}]},
-  {house: "La Maison Française (French House)", ppl:[{name: "Joyce Kang", kerb:"jbkang"},{name: "Jason Wang", kerb:"jkuwang"}]},
-  {house: "Deutsches Haus (German House)", ppl:[{name:"Emily Hanhauser", kerb:"ehanhaus"}]},
+  {house:"iHouse", ppl:[{name: "Madeline Garcia", kerb:"mkgarcia"}]},
+  {house: "Chocolate City", ppl:[{name: "Gabriel Andrade", kerb:"gica"}, {name: "Kaylah Paras", kerb: "kdparas"}]},
+  {house: "La Maison Française (French House)", ppl:[{name: "Miguel Calvo-Carerra", kerb:"miguelcc"},{name: "Irene Posse Alonso", kerb:""}]},
+  {house: "Deutsches Haus (German House)", ppl:[{name:"Michell Lin", kerb:"shuyulin"}]},
   {house: "La Casa", ppl:[{name:"Andrea Marcano-Delgado", kerb:"amarcano"}]},
   {house: "Juniper House", ppl:[{name:"Charlotte Folinus", kerb:"cfolinus"}]},
   {house: "House 3", ppl:[{name:"Tony Shu", kerb:"tonyshu"}]},
-  {house: "House 4", ppl:[{name: "Georgia Van de Zande", kerb:"gdvdz"},{name:"Manuel Guiterrez", kerb:"mguiter"}]},
+  {house: "House 4", ppl:[]},
   {house: "Desmond", ppl:[{name: "Jonathan Bessette", kerb:"jbessett"}]}
   
 ];
